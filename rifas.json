@@ -1,0 +1,14 @@
+{
+  "alive-games": {
+    "metas": { "refri": 10, "milho": 10, "azeite": 2 },
+    "atual": { "refri": 0, "milho": 0, "azeite": 0 }
+  },
+  "cantina-kids": {
+    "metas": { "suco": 5, "bolo": 3 },
+    "atual": { "suco": 0, "bolo": 0 }
+  },
+  "cantina-mulheres": {
+    "metas": { "bolo": 5, "suco": 5 },
+    "atual": { "bolo": 0, "suco": 0 }
+  }
+}

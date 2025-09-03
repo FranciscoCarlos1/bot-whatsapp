@@ -1,0 +1,16 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot do WhatsApp para rifas de cantinas e cultos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "venom-bot": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
