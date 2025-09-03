@@ -17,14 +17,17 @@ function salvar() {
   fs.writeFileSync(FILE, JSON.stringify(rifas, null, 2));
 }
 
-// Gera status de uma rifa
+// Gera status organizado da rifa
 function getStatus(rifa) {
   const r = rifas[rifa];
-  let msg = `📋 Rifa: ${rifa}\n\n`;
+  let msg = `📋 *Rifa: ${rifa}*\n\n`;
   for (const item in r.metas) {
-    msg += `• ${item}: ${r.atual[item]}/${r.metas[item]}\n`;
+    const qtdAtual = r.atual[item] || 0;
+    const qtdMeta = r.metas[item];
+    const check = qtdAtual >= qtdMeta ? "✅" : "⬜";
+    msg += `${check} ${item}: ${qtdAtual}/${qtdMeta}\n`;
   }
-  msg += "\n🙏 Obrigado pela ajuda!";
+  msg += `\n🙏 Obrigado pela ajuda!`;
   return msg;
 }
 
