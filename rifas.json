@@ -1,7 +1,7 @@
 {
   "alive-games": {
-    "metas": { "refri": 10, "milho": 10, "azeite": 2 },
-    "atual": { "refri": 0, "milho": 0, "azeite": 0 }
+    "metas": { "refrigerante": 10, "milho": 10, "azeite": 2 },
+    "atual": { "refrigerante": 0, "milho": 0, "azeite": 0 }
   },
   "cantina-kids": {
     "metas": { "suco": 5, "bolo": 3 },
